@@ -4,6 +4,9 @@
     box-sizing: border-box;
     background-color: black;
 }
+main{
+  padding-top: 140px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -483,4 +486,39 @@ textarea {
 .tog{
   display: flex;
 }
+@media (max-width: 768px) {
+  .card1 {
+    width: 90%;
+    margin: auto;
+  }
 
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #detail {
+    font-size: medium;
+    padding: 0 1rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .loader {
+    font-size: 18px;
+    height: auto;
+  }
+}
