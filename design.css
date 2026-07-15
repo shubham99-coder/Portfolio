@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     background-color: black;
-    flex-wrap: wrap;
 }
 nav{
     display: flex;
@@ -78,7 +77,7 @@ nav h2{
     transparent 70%,
     var(--bg-color) 90%
   );
-  z-index: 20;
+  z-index: -1;
 }
 
 .word {
